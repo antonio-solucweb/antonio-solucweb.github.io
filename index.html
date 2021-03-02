@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 4 admin, bootstrap 4, css3 dashboard, bootstrap 4 dashboard, severny admin bootstrap 4 dashboard, frontend, responsive bootstrap 4 admin template, my admin design, my admin dashboard bootstrap 4 dashboard template">
+    <meta name="description" content="My Admin is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Soluceditor</title>
+    <link rel="canonical" href="https://www.wrappixel.com/templates/myadmin-lite/" />
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Menu CSS -->
+    <link href="assets/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+    <!-- Menu CSS -->
+    <link href="assets/bower_components/morrisjs/morris.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <!-- Font Awesome 4.7.0  -->
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- SweetAlert 2 -->
+    <link href="assets/css/sweetalert2.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="cssload-speeding-wheel"></div>
+    </div>
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" style="margin-bottom: 0">
+            <div class="navbar-header"> <a class="navbar-toggle hidden-sm hidden-md hidden-lg "
+                    href="javascript:void(0)" data-toggle="collapse" data-target=".navbar-collapse"><i class="ti-menu"></i></a>
+                <div class="top-left-part"><a class="logo" href="#"><i class="glyphicon glyphicon-fire"></i>&nbsp;<span class="hidden-xs">SteemEditor</span></a></div>
+                <ul class="nav navbar-top-links navbar-left hidden-xs">
+                    <li><a href="javascript:void(0)" class="open-close hidden-xs hidden-lg waves-effect waves-light"><i class="ti-arrow-circle-left ti-menu"></i>
+                        </a></li>
+                </ul>
+                <ul class="nav navbar-top-links navbar-right pull-right">
+                    <li>
+                        <a class="profile-pic" href="#"> <img src="assets/images/users/hritik.jpg" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">SOLUCWEB</b> </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-header -->
+            <!-- /.navbar-top-links -->
+            <!-- /.navbar-static-side -->
+        </nav>
+        <div class="navbar-default sidebar nicescroll" role="navigation">
+            <div class="sidebar-nav navbar-collapse ">
+                <ul class="nav" id="side-menu">
+                    <!-- <li class="sidebar-search hidden-sm hidden-md hidden-lg">
+                        <div class="input-group custom-search-form">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button"><i class="ti-search"></i> </button>
+                            </span>
+                        </div>
+                    </li> -->
+                    <li>
+                        <i class="fa fa-header customSelect" aria-hidden="true"></i>
+                        <select id="headers" class="customSelect form-select">
+                            <option selected disabled>Encabezados</option>
+                            <option value="h1">H1</option>
+                            <option value="h2">H2</option>
+                            <option value="h3">H3</option>
+                            <option value="h4">H4</option>
+                            <option value="h5">H5</option>
+                            <option value="h6">H6</option>
+                          </select>
+                    </li>
+
+                    <li>
+                        <i class="fa fa-align-left customSelect" aria-hidden="true"></i>
+                        <select id="alineacion" class="customSelect form-select">
+                            <option selected disabled>Alinear elementos</option>
+                            <option value="left">Izquierda</option>
+                            <option value="center">Centro</option>
+                            <option value="right">Derecha</option>
+                            <option value="justify">Justificado</option>
+                          </select>
+                    </li>
+
+                    <li>
+                        <a class="waves-effect" id="bold"><i class="fa fa-bold customMenuIcons" aria-hidden="true"></i><b>Negrita</b></a>
+                    </li>
+
+                    <li>
+                        <a class="waves-effect" id="italic"><i class="fa fa-italic customMenuIcons" aria-hidden="true"></i><i>Cursiva</i></a>
+                    </li>
+
+                    <li>
+                        <a class="waves-effect" id="tachada"><i class="fa fa-strikethrough customMenuIcons" aria-hidden="true"></i><del>Tachada</del></a>
+                    </li>
+
+                    <li>
+                        <a class="waves-effect" id="textoCitado"><i class="fa fa-quote-left customMenuIcons" aria-hidden="true"></i>Texto citado</a>
+                    </li>
+
+                    <li>
+                        <a class="waves-effect" id="textoLista"><i class="fa fa-list customMenuIcons" aria-hidden="true"></i>Lista punteada</a>
+                    </li>
+
+                    <li>
+                        <a class="waves-effect" id="textoSuperIndice"><i class="fa fa-superscript customMenuIcons" aria-hidden="true"></i>Super índice</a>
+                    </li>
+
+                    <li>
+                        <a class="waves-effect" id="textoSubIndice"><i class="fa fa-subscript customMenuIcons" aria-hidden="true"></i>Sub índice</a>
+                    </li>
+
+                    <li>
+                        <a class="waves-effect" id="gridImg4"><i class="fa fa-th-large customMenuIcons" aria-hidden="true"></i>Grid de imágenes</a>
+                    </li>
+                </ul>
+                <div class="center p-20">
+                    <span class="hide-menu">
+                        <a href="https://steemlogin.com/sign/delegateVestingShares?delegator=&delegatee=%40antoj21&vesting_shares=38006.071208%20VESTS" target="_blank" class="btn btn-info btn-block btn-rounded waves-effect waves-light">DONAR</a>
+                    </span>
+                </div>
+            </div>
+            <!-- /.sidebar-collapse -->
+        </div>
+        <!-- Page Content -->
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row bg-title">
+                    <div class="col-lg-12">
+                        <h4 class="page-title">Bienvenidos al SteemEditor</h4>
+                        <ol class="breadcrumb">
+                            <li><a href="#">Redacta tu post aquí y luego pulsa el botón "Copiar" para luego pegarlo en tu post de Steemit</a></li>
+                        </ol>
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- /.row -->
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-sm-12">
+
+        <!-- Area de edición -->
+        <div class="row" style="margin-top: 3%;">
+            <div class="col-md-6">
+                <h2 class="tituloCajas">Código <b>Steemit</b></h2>
+                <textarea id="editorPrincipal" class="editores" placeholder="Redacte aquí su publicación para Steemit..."></textarea>
+                <p id="toCopy"></p>
+            </div>
+
+            <div class="col-md-6">
+                <h2 class="tituloCajas">Vista previa</h2>
+                <p id="resultado" class="editores"></p>
+            </div>
+        </div>
+
+        <!-- Area de edición -->
+        <div class="row" style="margin-top: 3%;">
+            <div class="col-md-12">
+              <div class="btn-group">
+                  <button class="btn btn-primary" onclick="copiarAlPortapapeles('toCopy')">Copiar código</button>
+              </div>
+
+            </div>
+        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+        <!-- /#page-wrapper -->
+        <footer class="footer text-center"> 2021 &copy; Desarrollado por: <a href="https://solucweb.com" target="_blank"><b>SOLUCWEB</b></a> - Steemit <a href="https://steemit.com/@antoj21" target="_blank"><b>(Antoj21)</b></a> </footer>
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Sweet Alert 2 -->
+    <script src="assets/js/sweetalert2.min.js"></script>
+    <!-- jQuery -->
+    <script src="assets/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Menu Plugin JavaScript -->
+    <script src="assets/bower_components/metisMenu/dist/metisMenu.min.js"></script>
+    <!--Nice scroll JavaScript -->
+    <script src="assets/js/jquery.nicescroll.js"></script>
+    <!--Wave Effects -->
+    <script src="assets/js/waves.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="assets/js/myadmin.js"></script>
+    <script src="assets/js/acciones.js"></script>
+</body>
+</html>
