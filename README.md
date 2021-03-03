@@ -4,7 +4,8 @@
 
 <p>He procurado realizar la interfaz de la manera más asimple y amigable posible para facilitar su entendimiento y la fuidez en la edición de sus contenidos, despúes de todo, la finalidad es simplficarles la tarea en lugar de complicárselas más jeje</p>
 
-<pEspero sea de su agrado y todo comentario será bien recibido</p>
+<p>Espero sea de su agrado y todo comentario será bien recibido</p>
 
+<hr>
 
 ### SOFTWARE DESARROLLADO POR ANTONIO BLANCA BAJO LA MARCA SOLUCWEB, SÓLO PARA SER USADO EN LA PLATAFORMA STEEMIT
