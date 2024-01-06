@@ -6,6 +6,7 @@
 
 <p>Espero sea de su agrado y todo comentario será bien recibido</p>
 
+## Link: https://antonio-solucweb.github.io/
 <hr>
 
-### SOFTWARE DESARROLLADO POR ANTONIO BLANCA BAJO LA MARCA SOLUCWEB, SÓLO PARA SER USADO EN LA PLATAFORMA STEEMIT
+### SOFTWARE DESARROLLADO POR ANTONIO BLANCA, SÓLO PARA SER USADO EN LA PLATAFORMA STEEMIT
